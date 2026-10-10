@@ -63,6 +63,7 @@ predicted_action = policy(sample_obs)
 loss = loss_function(predicted_action, action_tensor[0])
 print("Loss:", loss.item())
 
+best_val_loss = float("inf")
 epochs = 50
 for epoch in range(epochs):
     policy.train()
@@ -89,6 +90,12 @@ for epoch in range(epochs):
 
             total_val_loss += loss.item()
     average_val_loss = (total_val_loss / len(val_laoder))
+    if average_val_loss < best_val_loss:
+        best_val_loss = average_val_loss
+
+        torch.save(
+            policy.state_dict(), "bc_policy.pt"
+        )
     if (epoch + 1) % 5 == 0:
         print(
             f"Epoch {epoch + 1}: "
@@ -96,6 +103,5 @@ for epoch in range(epochs):
             f"Val loss = {average_val_loss:.6f}"
         )
 
-torch.save(policy.state_dict(), "bc_policy.pt")
-
-print("Model saved")
+print("Best model saved")
+print("Best validation loss:", best_val_loss)
