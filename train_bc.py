@@ -1,0 +1,101 @@
+import numpy as np
+import torch
+import torch.nn as nn
+
+from torch.utils.data import TensorDataset, DataLoader, random_split
+
+observations = np.load("observations.npy")
+actions = np.load("actions.npy")
+
+print("NumPy observations:", observations.shape)
+print("NumPy actions:", actions.shape)
+
+obs_tensor = torch.tensor(observations, dtype = torch.float32)
+action_tensor = torch.tensor(actions, dtype = torch.float32)
+
+dataset = TensorDataset(obs_tensor, action_tensor)
+train_size = int(0.8 * len(dataset))
+val_size = len(dataset) - train_size
+
+train_dataset, val_dataset = random_split(
+    dataset,
+    [train_size, val_size],
+    generator = torch.Generator().manual_seed(42)
+)
+
+train_laoder = DataLoader(
+    train_dataset, 
+    batch_size = 64,
+    shuffle = True
+)
+
+val_laoder = DataLoader(
+    val_dataset, 
+    batch_size = 64,
+    shuffle = False
+)
+
+class BCPolicy(nn.Module):
+    def __init__(self):
+        super().__init__()
+
+        self.network = nn.Sequential(
+            nn.Linear(10, 64),
+            nn.ReLU(),
+            nn.Linear(64, 64),
+            nn.ReLU(),
+            nn.Linear(64, 2)
+        )
+
+    def forward(self, x):
+        return self.network(x)
+
+policy = BCPolicy()
+print(policy)
+
+
+loss_function = nn.MSELoss()
+optimizer = torch.optim.Adam(policy.parameters(), lr = 0.001)
+sample_obs = obs_tensor[0]
+target_action = action_tensor[0]
+predicted_action = policy(sample_obs)
+
+loss = loss_function(predicted_action, action_tensor[0])
+print("Loss:", loss.item())
+
+epochs = 50
+for epoch in range(epochs):
+    policy.train()
+    total_train_loss = 0.0
+
+    for batch_obs, batch_actions in train_laoder:
+
+        predicted_action = policy(batch_obs)
+        loss = loss_function(
+            predicted_action, batch_actions
+        )
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        total_train_loss += loss.item()
+    average_train_loss = (total_train_loss / len(train_laoder))
+
+    policy.eval()
+    total_val_loss = 0.0
+    with torch.no_grad():
+        for batch_obs, batch_actions in val_laoder:
+            predicted_actions = policy(batch_obs)
+            loss = loss_function(predicted_actions, batch_actions)
+
+            total_val_loss += loss.item()
+    average_val_loss = (total_val_loss / len(val_laoder))
+    if (epoch + 1) % 5 == 0:
+        print(
+            f"Epoch {epoch + 1}: "
+            f"Train loss = {average_train_loss:.6f}"
+            f"Val loss = {average_val_loss:.6f}"
+        )
+
+torch.save(policy.state_dict(), "bc_policy.pt")
+
+print("Model saved")
