@@ -45,7 +45,7 @@ def expert_policy(obs):
     kp = 1.0
     kd = 0.05
 
-    action1 = -kp * dx - kp * qd1
+    action1 = -kp * dx - kd * qd1
     action2 = -kp * dy - kd * qd2
 
     action = np.array(
