@@ -1,0 +1,25 @@
+[0.024s] Invoking command in '/home/ritik/latch_ws/ros2_ws/build/latch_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ritik/latch_ws/ros2_ws/build/latch_core -- -j16 -l16
+[0.204s] [ 50%] [32mBuilding CXX object CMakeFiles/state_monitor.dir/src/state_monitor.cpp.o[0m
+[10.927s] [100%] [32m[1mLinking CXX executable state_monitor[0m
+[11.503s] [100%] Built target state_monitor
+[11.521s] Invoked command in '/home/ritik/latch_ws/ros2_ws/build/latch_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ritik/latch_ws/ros2_ws/build/latch_core -- -j16 -l16
+[11.537s] Invoking command in '/home/ritik/latch_ws/ros2_ws/build/latch_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ritik/latch_ws/ros2_ws/build/latch_core
+[11.547s] -- Install configuration: ""
+[11.549s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/state_monitor
+[11.554s] -- Set non-toolchain portion of runtime path of "/home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/state_monitor" to ""
+[11.555s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/package_run_dependencies/latch_core
+[11.556s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/parent_prefix_path/latch_core
+[11.557s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.sh
+[11.558s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.dsv
+[11.559s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.sh
+[11.559s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.dsv
+[11.560s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.bash
+[11.561s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.sh
+[11.561s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.zsh
+[11.562s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.dsv
+[11.562s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.dsv
+[11.563s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/packages/latch_core
+[11.563s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig.cmake
+[11.564s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig-version.cmake
+[11.564s] -- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.xml
+[11.567s] Invoked command in '/home/ritik/latch_ws/ros2_ws/build/latch_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ritik/latch_ws/ros2_ws/build/latch_core

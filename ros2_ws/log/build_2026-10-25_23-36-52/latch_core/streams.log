@@ -1,0 +1,12 @@
+[0.018s] Invoking command in '/home/ritik/latch_ws/ros2_ws/build/latch_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/ritik/latch_ws/ros2_ws/build/latch_core -- -j16 -l16
+[0.093s] [ 50%] Built target state_monitor
+[0.097s] [ 75%] [32mBuilding CXX object CMakeFiles/safety_filter.dir/src/safety_filter.cpp.o[0m
+[3.765s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:[m[K In constructor ‘[01m[KSafetyFilter::[01;32m[KSafetyFilter[m[K()[m[K’:
+[3.766s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscriber_[m[K’?
+[3.766s]    20 |             [01;31m[Ksubscription_[m[K = this->create_subscription<
+[3.766s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[3.766s]       |             [32m[Ksubscriber_[m[K
+[6.964s] gmake[2]: *** [CMakeFiles/safety_filter.dir/build.make:76: CMakeFiles/safety_filter.dir/src/safety_filter.cpp.o] Error 1
+[6.964s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/safety_filter.dir/all] Error 2
+[6.964s] gmake: *** [Makefile:146: all] Error 2
+[6.969s] Invoked command in '/home/ritik/latch_ws/ros2_ws/build/latch_core' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/ritik/latch_ws/ros2_ws/build/latch_core -- -j16 -l16

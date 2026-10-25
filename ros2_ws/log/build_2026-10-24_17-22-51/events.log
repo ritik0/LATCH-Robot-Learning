@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (latch_core) JobQueued: {'identifier': 'latch_core', 'dependencies': OrderedDict()}
+[0.000873] (latch_core) JobStarted: {'identifier': 'latch_core'}
+[0.018629] (latch_core) JobProgress: {'identifier': 'latch_core', 'progress': 'cmake'}
+[0.020630] (latch_core) JobProgress: {'identifier': 'latch_core', 'progress': 'build'}
+[0.021676] (latch_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ritik/latch_ws/ros2_ws/build/latch_core', '--', '-j16', '-l16'], 'cwd': '/home/ritik/latch_ws/ros2_ws/build/latch_core', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ritik', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ritik', 'OLDPWD': '/home/ritik/latch_ws', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ritik', 'NAME': 'ritik-laptop', 'WSL_INTEROP': '/run/WSL/355_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.13.11-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/ritik/.mavis/bin:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/ritik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ritik/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ritik/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/ritik/AppData/Roaming/Programs/Zero Install:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/ritik/AppData/Local/Programs/Ollama:/mnt/c/Users/ritik/.lmstudio/bin:/mnt/c/Users/ritik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ritik/AppData/Local/Programs/GraXpert/:/mnt/c/Users/ritik/AppData/Local/Muse Hub/lib:/mnt/c/Users/ritik/AppData/Local/Pandoc/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/ritik/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.2-full_build/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ritik/latch_ws/ros2_ws/build/latch_core', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ritik/hycom_ws/install/hycom_description:/home/ritik/hycom_ws/install/hycom_core:/home/ritik/hycom_ws/install/hycom_control:/home/ritik/hycom_ws/install/franka_description:/home/ritik/ros2_ws/install/robotics_basics:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.099166] (-) TimerEvent: {}
+[0.199705] (-) TimerEvent: {}
+[0.205248] (latch_core) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/state_monitor.dir/src/state_monitor.cpp.o\x1b[0m\n'}
+[0.299925] (-) TimerEvent: {}
+[0.400567] (-) TimerEvent: {}
+[0.501144] (-) TimerEvent: {}
+[0.601675] (-) TimerEvent: {}
+[0.702129] (-) TimerEvent: {}
+[0.802642] (-) TimerEvent: {}
+[0.903259] (-) TimerEvent: {}
+[1.003933] (-) TimerEvent: {}
+[1.104719] (-) TimerEvent: {}
+[1.205397] (-) TimerEvent: {}
+[1.306041] (-) TimerEvent: {}
+[1.406649] (-) TimerEvent: {}
+[1.507306] (-) TimerEvent: {}
+[1.608007] (-) TimerEvent: {}
+[1.708686] (-) TimerEvent: {}
+[1.809356] (-) TimerEvent: {}
+[1.910051] (-) TimerEvent: {}
+[2.010745] (-) TimerEvent: {}
+[2.111503] (-) TimerEvent: {}
+[2.212097] (-) TimerEvent: {}
+[2.312851] (-) TimerEvent: {}
+[2.413694] (-) TimerEvent: {}
+[2.514342] (-) TimerEvent: {}
+[2.615068] (-) TimerEvent: {}
+[2.715946] (-) TimerEvent: {}
+[2.816708] (-) TimerEvent: {}
+[2.917564] (-) TimerEvent: {}
+[3.018264] (-) TimerEvent: {}
+[3.118968] (-) TimerEvent: {}
+[3.219758] (-) TimerEvent: {}
+[3.320597] (-) TimerEvent: {}
+[3.421409] (-) TimerEvent: {}
+[3.522278] (-) TimerEvent: {}
+[3.623125] (-) TimerEvent: {}
+[3.724203] (-) TimerEvent: {}
+[3.824904] (-) TimerEvent: {}
+[3.925715] (-) TimerEvent: {}
+[4.026565] (-) TimerEvent: {}
+[4.127505] (-) TimerEvent: {}
+[4.228392] (-) TimerEvent: {}
+[4.329328] (-) TimerEvent: {}
+[4.430111] (-) TimerEvent: {}
+[4.530727] (-) TimerEvent: {}
+[4.631336] (-) TimerEvent: {}
+[4.732290] (-) TimerEvent: {}
+[4.833207] (-) TimerEvent: {}
+[4.934089] (-) TimerEvent: {}
+[5.034998] (-) TimerEvent: {}
+[5.135713] (-) TimerEvent: {}
+[5.236783] (-) TimerEvent: {}
+[5.337555] (-) TimerEvent: {}
+[5.438544] (-) TimerEvent: {}
+[5.539514] (-) TimerEvent: {}
+[5.640376] (-) TimerEvent: {}
+[5.741538] (-) TimerEvent: {}
+[5.842876] (-) TimerEvent: {}
+[5.944213] (-) TimerEvent: {}
+[6.045270] (-) TimerEvent: {}
+[6.146154] (-) TimerEvent: {}
+[6.247307] (-) TimerEvent: {}
+[6.348173] (-) TimerEvent: {}
+[6.449228] (-) TimerEvent: {}
+[6.549829] (-) TimerEvent: {}
+[6.650769] (-) TimerEvent: {}
+[6.751721] (-) TimerEvent: {}
+[6.852695] (-) TimerEvent: {}
+[6.953797] (-) TimerEvent: {}
+[7.054945] (-) TimerEvent: {}
+[7.155937] (-) TimerEvent: {}
+[7.257061] (-) TimerEvent: {}
+[7.358278] (-) TimerEvent: {}
+[7.459478] (-) TimerEvent: {}
+[7.560506] (-) TimerEvent: {}
+[7.661480] (-) TimerEvent: {}
+[7.762524] (-) TimerEvent: {}
+[7.863554] (-) TimerEvent: {}
+[7.964683] (-) TimerEvent: {}
+[8.065690] (-) TimerEvent: {}
+[8.166634] (-) TimerEvent: {}
+[8.267684] (-) TimerEvent: {}
+[8.368785] (-) TimerEvent: {}
+[8.469872] (-) TimerEvent: {}
+[8.571020] (-) TimerEvent: {}
+[8.671602] (-) TimerEvent: {}
+[8.772614] (-) TimerEvent: {}
+[8.873560] (-) TimerEvent: {}
+[8.974795] (-) TimerEvent: {}
+[9.076157] (-) TimerEvent: {}
+[9.177344] (-) TimerEvent: {}
+[9.278579] (-) TimerEvent: {}
+[9.379739] (-) TimerEvent: {}
+[9.480267] (-) TimerEvent: {}
+[9.581483] (-) TimerEvent: {}
+[9.682672] (-) TimerEvent: {}
+[9.783873] (-) TimerEvent: {}
+[9.885055] (-) TimerEvent: {}
+[9.986320] (-) TimerEvent: {}
+[10.087007] (-) TimerEvent: {}
+[10.188264] (-) TimerEvent: {}
+[10.289621] (-) TimerEvent: {}
+[10.390829] (-) TimerEvent: {}
+[10.491688] (-) TimerEvent: {}
+[10.593016] (-) TimerEvent: {}
+[10.693946] (-) TimerEvent: {}
+[10.794925] (-) TimerEvent: {}
+[10.896209] (-) TimerEvent: {}
+[10.927591] (latch_core) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable state_monitor\x1b[0m\n'}
+[10.996800] (-) TimerEvent: {}
+[11.097479] (-) TimerEvent: {}
+[11.198615] (-) TimerEvent: {}
+[11.299580] (-) TimerEvent: {}
+[11.400258] (-) TimerEvent: {}
+[11.500805] (-) TimerEvent: {}
+[11.504409] (latch_core) StdoutLine: {'line': b'[100%] Built target state_monitor\n'}
+[11.521526] (latch_core) CommandEnded: {'returncode': 0}
+[11.524077] (latch_core) JobProgress: {'identifier': 'latch_core', 'progress': 'install'}
+[11.537588] (latch_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ritik/latch_ws/ros2_ws/build/latch_core'], 'cwd': '/home/ritik/latch_ws/ros2_ws/build/latch_core', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ritik', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ritik', 'OLDPWD': '/home/ritik/latch_ws', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ritik', 'NAME': 'ritik-laptop', 'WSL_INTEROP': '/run/WSL/355_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.13.11-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/ritik/.mavis/bin:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/ritik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ritik/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ritik/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/ritik/AppData/Roaming/Programs/Zero Install:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/ritik/AppData/Local/Programs/Ollama:/mnt/c/Users/ritik/.lmstudio/bin:/mnt/c/Users/ritik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ritik/AppData/Local/Programs/GraXpert/:/mnt/c/Users/ritik/AppData/Local/Muse Hub/lib:/mnt/c/Users/ritik/AppData/Local/Pandoc/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/ritik/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.2-full_build/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ritik/latch_ws/ros2_ws/build/latch_core', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ritik/hycom_ws/install/hycom_description:/home/ritik/hycom_ws/install/hycom_core:/home/ritik/hycom_ws/install/hycom_control:/home/ritik/hycom_ws/install/franka_description:/home/ritik/ros2_ws/install/robotics_basics:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[11.548636] (latch_core) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.550377] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/state_monitor\n'}
+[11.555291] (latch_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/state_monitor" to ""\n'}
+[11.556356] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/package_run_dependencies/latch_core\n'}
+[11.557162] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/parent_prefix_path/latch_core\n'}
+[11.558334] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.sh\n'}
+[11.559009] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.dsv\n'}
+[11.559667] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.sh\n'}
+[11.560171] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.dsv\n'}
+[11.561001] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.bash\n'}
+[11.562015] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.sh\n'}
+[11.562425] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.zsh\n'}
+[11.562954] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.dsv\n'}
+[11.563461] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.dsv\n'}
+[11.564007] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/packages/latch_core\n'}
+[11.564374] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig.cmake\n'}
+[11.564881] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig-version.cmake\n'}
+[11.565461] (latch_core) StdoutLine: {'line': b'-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.xml\n'}
+[11.567961] (latch_core) CommandEnded: {'returncode': 0}
+[11.600837] (latch_core) JobEnded: {'identifier': 'latch_core', 'rc': 0}
+[11.602457] (-) TimerEvent: {}
+[11.602602] (-) EventReactorShutdown: {}

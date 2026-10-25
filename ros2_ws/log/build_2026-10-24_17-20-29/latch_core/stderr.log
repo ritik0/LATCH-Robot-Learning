@@ -1,0 +1,50 @@
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64MultiArray[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KFloat64MultiArray[m[K’?
+   29 |             const std_msgs::msg::[01;31m[Kfloat64MultiArray[m[K::SharedPtr msg
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[KFloat64MultiArray[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   29 |             const std_msgs::msg::float64MultiArray::SharedPtr [01;31m[Kmsg[m[K
+      |                                                               [01;31m[K^~~[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   29 |             const std_msgs::msg::float64MultiArray::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K
+      |                                                              [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                              [32m[K)[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:28:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   28 |         void observation_callback[01;36m[K([m[K
+      |                                  [01;36m[K^[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   29 |             const std_msgs::msg::float64MultiArray::[01;31m[KSharedPtr[m[K msg
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   29 |             const std_msgs::msg::float64MultiArray::SharedPtr [01;31m[Kmsg[m[K
+      |                                                               [01;31m[K^~~[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:40:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64MultiArray[m[K’?
+   40 |             std_msgs::msg::[01;31m[Kfloat64MultiArray[m[K
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[KFloat64MultiArray[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   41 |         [01;31m[K>[m[K::SharedPtr subscription_;
+      |         [01;31m[K^[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   41 |         >::[01;31m[KSharedPtr[m[K subscription_;
+      |            [01;31m[K^~~~~~~~~[m[K
+      |                     [32m[K;[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   41 |         >::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                      [01;31m[K^~~~~~~~~~~~~[m[K
+      |                      [32m[Krmw_subscription_t[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:[m[K In constructor ‘[01m[KStateMonitor::[01;32m[KStateMonitor[m[K()[m[K’:
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:12:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   12 |             [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Krmw_subscription_t[m[K
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:18:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholder[m[K’ has not been declared
+   18 |                     std::[01;31m[Kplaceholder[m[K::_1
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/state_monitor.dir/build.make:76: CMakeFiles/state_monitor.dir/src/state_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/state_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/state_monitor.dir/src/state_monitor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable state_monitor[0m
+[100%] Built target state_monitor
+-- Install configuration: ""
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/state_monitor
+-- Set non-toolchain portion of runtime path of "/home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/state_monitor" to ""
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/package_run_dependencies/latch_core
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/parent_prefix_path/latch_core
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.sh
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.dsv
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.sh
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.dsv
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.bash
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.sh
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.zsh
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.dsv
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.dsv
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/packages/latch_core
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig.cmake
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig-version.cmake
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.xml

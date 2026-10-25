@@ -1,0 +1,10 @@
+[ 50%] Built target state_monitor
+[ 75%] [32mBuilding CXX object CMakeFiles/safety_filter.dir/src/safety_filter.cpp.o[0m
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:[m[K In constructor ‘[01m[KSafetyFilter::[01;32m[KSafetyFilter[m[K()[m[K’:
+[01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscriber_[m[K’?
+   20 |             [01;31m[Ksubscription_[m[K = this->create_subscription<
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Ksubscriber_[m[K
+gmake[2]: *** [CMakeFiles/safety_filter.dir/build.make:76: CMakeFiles/safety_filter.dir/src/safety_filter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/safety_filter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

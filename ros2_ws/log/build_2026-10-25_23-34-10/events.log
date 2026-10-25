@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (latch_core) JobQueued: {'identifier': 'latch_core', 'dependencies': OrderedDict()}
+[0.000617] (latch_core) JobStarted: {'identifier': 'latch_core'}
+[0.013015] (latch_core) JobProgress: {'identifier': 'latch_core', 'progress': 'cmake'}
+[0.013990] (latch_core) JobProgress: {'identifier': 'latch_core', 'progress': 'build'}
+[0.015445] (latch_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ritik/latch_ws/ros2_ws/build/latch_core', '--', '-j16', '-l16'], 'cwd': '/home/ritik/latch_ws/ros2_ws/build/latch_core', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ritik', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ritik', 'OLDPWD': '/home/ritik/latch_ws', 'ROS_PYTHON_VERSION': '3', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ritik/latch_ws/ros2_ws/install:/home/ritik/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ritik', 'NAME': 'ritik-laptop', 'WSL_INTEROP': '/run/WSL/337_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/ritik/latch_ws/.venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.13.11-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/ritik/.mavis/bin:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ritik/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/ritik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ritik/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ritik/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/ritik/AppData/Roaming/Programs/Zero Install:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/ritik/AppData/Local/Programs/Ollama:/mnt/c/Users/ritik/.lmstudio/bin:/mnt/c/Users/ritik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ritik/AppData/Local/Programs/GraXpert/:/mnt/c/Users/ritik/AppData/Local/Muse Hub/lib:/mnt/c/Users/ritik/AppData/Local/Pandoc/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/ritik/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.2-full_build/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ritik/latch_ws/ros2_ws/install/latch_core:/home/ritik/ros2_ws/install/robotics_basics:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/ritik/latch_ws/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ritik/latch_ws/ros2_ws/build/latch_core', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ritik/latch_ws/ros2_ws/install/latch_core:/home/ritik/ros2_ws/install/robotics_basics:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.069241] (latch_core) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099834] (-) TimerEvent: {}
+[0.205788] (-) TimerEvent: {}
+[0.310215] (-) TimerEvent: {}
+[0.416457] (-) TimerEvent: {}
+[0.429267] (latch_core) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.521572] (-) TimerEvent: {}
+[0.627806] (-) TimerEvent: {}
+[0.733972] (-) TimerEvent: {}
+[0.745637] (latch_core) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.765703] (latch_core) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.798056] (latch_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.828769] (latch_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.834277] (-) TimerEvent: {}
+[0.940664] (-) TimerEvent: {}
+[0.962511] (latch_core) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.968214] (latch_core) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.042628] (-) TimerEvent: {}
+[1.149028] (-) TimerEvent: {}
+[1.255216] (-) TimerEvent: {}
+[1.361425] (-) TimerEvent: {}
+[1.387051] (latch_core) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.461738] (-) TimerEvent: {}
+[1.568032] (-) TimerEvent: {}
+[1.674158] (-) TimerEvent: {}
+[1.744715] (latch_core) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.774403] (latch_core) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.775107] (-) TimerEvent: {}
+[1.881438] (-) TimerEvent: {}
+[1.956156] (latch_core) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.956697] (latch_core) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.956848] (latch_core) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.957825] (latch_core) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.959437] (latch_core) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.959704] (latch_core) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.960305] (latch_core) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.963922] (latch_core) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[1.982443] (-) TimerEvent: {}
+[1.992188] (latch_core) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.000253] (latch_core) StdoutLine: {'line': b'-- Build files have been written to: /home/ritik/latch_ws/ros2_ws/build/latch_core\n'}
+[2.057921] (latch_core) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/safety_filter.dir/src/safety_filter.cpp.o\x1b[0m\n'}
+[2.072090] (latch_core) StdoutLine: {'line': b'[ 75%] Built target state_monitor\n'}
+[2.082815] (-) TimerEvent: {}
+[2.187052] (-) TimerEvent: {}
+[2.290795] (-) TimerEvent: {}
+[2.395740] (-) TimerEvent: {}
+[2.500497] (-) TimerEvent: {}
+[2.606709] (-) TimerEvent: {}
+[2.713037] (-) TimerEvent: {}
+[2.815634] (-) TimerEvent: {}
+[2.917281] (-) TimerEvent: {}
+[3.019865] (-) TimerEvent: {}
+[3.123089] (-) TimerEvent: {}
+[3.226250] (-) TimerEvent: {}
+[3.329552] (-) TimerEvent: {}
+[3.432891] (-) TimerEvent: {}
+[3.536245] (-) TimerEvent: {}
+[3.639621] (-) TimerEvent: {}
+[3.740277] (-) TimerEvent: {}
+[3.843541] (-) TimerEvent: {}
+[3.946976] (-) TimerEvent: {}
+[4.050346] (-) TimerEvent: {}
+[4.153630] (-) TimerEvent: {}
+[4.256971] (-) TimerEvent: {}
+[4.359913] (-) TimerEvent: {}
+[4.463052] (-) TimerEvent: {}
+[4.566464] (-) TimerEvent: {}
+[4.669585] (-) TimerEvent: {}
+[4.770307] (-) TimerEvent: {}
+[4.871728] (-) TimerEvent: {}
+[4.972236] (-) TimerEvent: {}
+[5.072825] (-) TimerEvent: {}
+[5.173539] (-) TimerEvent: {}
+[5.274330] (-) TimerEvent: {}
+[5.375132] (-) TimerEvent: {}
+[5.475877] (-) TimerEvent: {}
+[5.576782] (-) TimerEvent: {}
+[5.677373] (-) TimerEvent: {}
+[5.778039] (-) TimerEvent: {}
+[5.878773] (-) TimerEvent: {}
+[5.884628] (latch_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSafetyFilter::\x1b[01;32m\x1b[KSafetyFilter\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.885041] (latch_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:20:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksubscriber_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.885197] (latch_core) StderrLine: {'line': b'   20 |             \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<\n'}
+[5.885296] (latch_core) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.885385] (latch_core) StderrLine: {'line': b'      |             \x1b[32m\x1b[Ksubscriber_\x1b[m\x1b[K\n'}
+[5.899376] (latch_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SafetyFilter::\x1b[01;32m\x1b[Kaction_callback\x1b[m\x1b[K(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.900540] (latch_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:55:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Klvalue required as increment operand\n'}
+[5.900786] (latch_core) StderrLine: {'line': b'   55 |                 for (std::size_t i = 0; i < 4; ++\x1b[01;31m\x1b[K1\x1b[m\x1b[K)\n'}
+[5.900882] (latch_core) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.900969] (latch_core) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.901053] (latch_core) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[5.901136] (latch_core) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175\x1b[m\x1b[K,\n'}
+[5.901217] (latch_core) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:5\x1b[m\x1b[K:\n'}
+[5.901299] (latch_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/safety_filter.cpp:60:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.901383] (latch_core) StderrLine: {'line': b'   60 |                         \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(\n'}
+[5.901466] (latch_core) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.979170] (-) TimerEvent: {}
+[6.079792] (-) TimerEvent: {}
+[6.180302] (-) TimerEvent: {}
+[6.280899] (-) TimerEvent: {}
+[6.381725] (-) TimerEvent: {}
+[6.482833] (-) TimerEvent: {}
+[6.583682] (-) TimerEvent: {}
+[6.684211] (-) TimerEvent: {}
+[6.786213] (-) TimerEvent: {}
+[6.890761] (-) TimerEvent: {}
+[6.997171] (-) TimerEvent: {}
+[7.097922] (-) TimerEvent: {}
+[7.198671] (-) TimerEvent: {}
+[7.301859] (-) TimerEvent: {}
+[7.407223] (-) TimerEvent: {}
+[7.508248] (-) TimerEvent: {}
+[7.614440] (-) TimerEvent: {}
+[7.720810] (-) TimerEvent: {}
+[7.821562] (-) TimerEvent: {}
+[7.927891] (-) TimerEvent: {}
+[8.028902] (-) TimerEvent: {}
+[8.132842] (-) TimerEvent: {}
+[8.239068] (-) TimerEvent: {}
+[8.340901] (-) TimerEvent: {}
+[8.447251] (-) TimerEvent: {}
+[8.548490] (-) TimerEvent: {}
+[8.654830] (-) TimerEvent: {}
+[8.761277] (-) TimerEvent: {}
+[8.864424] (-) TimerEvent: {}
+[8.970678] (-) TimerEvent: {}
+[9.072708] (-) TimerEvent: {}
+[9.120773] (latch_core) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/safety_filter.dir/build.make:76: CMakeFiles/safety_filter.dir/src/safety_filter.cpp.o] Error 1\n'}
+[9.121459] (latch_core) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/safety_filter.dir/all] Error 2\n'}
+[9.121682] (latch_core) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.125104] (latch_core) CommandEnded: {'returncode': 2}
+[9.139964] (latch_core) JobEnded: {'identifier': 'latch_core', 'rc': 2}
+[9.151868] (-) EventReactorShutdown: {}

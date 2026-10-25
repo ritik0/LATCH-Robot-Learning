@@ -1,0 +1,17 @@
+/home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/state_monitor
+/home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/safety_filter
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/package_run_dependencies/latch_core
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/parent_prefix_path/latch_core
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.sh
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.dsv
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.sh
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.dsv
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.bash
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.sh
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.zsh
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.dsv
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.dsv
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/packages/latch_core
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig.cmake
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig-version.cmake
+/home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.xml

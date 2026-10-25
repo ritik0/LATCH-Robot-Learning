@@ -1,0 +1,95 @@
+[0.031s] Invoking command in '/home/ritik/latch_ws/ros2_ws/build/latch_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/ritik/latch_ws/ros2_ws/src/latch_core -DCMAKE_INSTALL_PREFIX=/home/ritik/latch_ws/ros2_ws/install/latch_core
+[0.416s] -- The C compiler identification is GNU 13.3.0
+[1.232s] -- The CXX compiler identification is GNU 13.3.0
+[2.109s] -- Detecting C compiler ABI info
+[2.479s] -- Detecting C compiler ABI info - done
+[2.490s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.491s] -- Detecting C compile features
+[2.492s] -- Detecting C compile features - done
+[2.632s] -- Detecting CXX compiler ABI info
+[3.032s] -- Detecting CXX compiler ABI info - done
+[3.044s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.044s] -- Detecting CXX compile features
+[3.045s] -- Detecting CXX compile features - done
+[3.106s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.323s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.550s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.866s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.897s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.986s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.162s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.173s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.352s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.620s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.176s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.216s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.417s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.418s] -- Configured cppcheck include dirs: 
+[5.418s] -- Configured cppcheck exclude dirs and/or files: 
+[5.420s] -- Added test 'lint_cmake' to check CMake code style
+[5.424s] -- Added test 'uncrustify' to check C / C++ code style
+[5.424s] -- Configured uncrustify additional arguments: 
+[5.426s] -- Added test 'xmllint' to check XML markup files
+[5.431s] -- Configuring done (5.3s)
+[5.451s] -- Generating done (0.0s)
+[5.458s] -- Build files have been written to: /home/ritik/latch_ws/ros2_ws/build/latch_core
+[5.477s] Invoked command in '/home/ritik/latch_ws/ros2_ws/build/latch_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/ritik/latch_ws/ros2_ws/src/latch_core -DCMAKE_INSTALL_PREFIX=/home/ritik/latch_ws/ros2_ws/install/latch_core
+[5.477s] Invoking command in '/home/ritik/latch_ws/ros2_ws/build/latch_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ritik/latch_ws/ros2_ws/build/latch_core -- -j16 -l16
+[5.545s] [ 50%] [32mBuilding CXX object CMakeFiles/state_monitor.dir/src/state_monitor.cpp.o[0m
+[8.990s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64MultiArray[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KFloat64MultiArray[m[K’?
+[8.990s]    29 |             const std_msgs::msg::[01;31m[Kfloat64MultiArray[m[K::SharedPtr msg
+[8.990s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.990s]       |                                  [32m[KFloat64MultiArray[m[K
+[8.990s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[8.990s]    29 |             const std_msgs::msg::float64MultiArray::SharedPtr [01;31m[Kmsg[m[K
+[8.991s]       |                                                               [01;31m[K^~~[m[K
+[8.991s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[8.991s]    29 |             const std_msgs::msg::float64MultiArray::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K
+[8.991s]       |                                                              [01;31m[K^[m[K[32m[K~~~[m[K
+[8.991s]       |                                                              [32m[K)[m[K
+[8.991s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:28:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[8.991s]    28 |         void observation_callback[01;36m[K([m[K
+[8.991s]       |                                  [01;36m[K^[m[K
+[8.991s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[8.991s]    29 |             const std_msgs::msg::float64MultiArray::[01;31m[KSharedPtr[m[K msg
+[8.991s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[8.991s]       |                                                              [32m[K;[m[K
+[8.992s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:29:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[8.992s]    29 |             const std_msgs::msg::float64MultiArray::SharedPtr [01;31m[Kmsg[m[K
+[8.993s]       |                                                               [01;31m[K^~~[m[K
+[8.993s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:40:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64MultiArray[m[K’?
+[8.993s]    40 |             std_msgs::msg::[01;31m[Kfloat64MultiArray[m[K
+[8.993s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.993s]       |                            [32m[KFloat64MultiArray[m[K
+[8.993s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.993s]    41 |         [01;31m[K>[m[K::SharedPtr subscription_;
+[8.993s]       |         [01;31m[K^[m[K
+[8.993s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[8.993s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[8.993s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[8.993s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[8.993s]    41 |         >::[01;31m[KSharedPtr[m[K subscription_;
+[8.993s]       |            [01;31m[K^~~~~~~~~[m[K
+[8.994s]       |                     [32m[K;[m[K
+[8.996s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:41:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[8.996s]    41 |         >::SharedPtr [01;31m[Ksubscription_[m[K;
+[8.996s]       |                      [01;31m[K^~~~~~~~~~~~~[m[K
+[8.996s]       |                      [32m[Krmw_subscription_t[m[K
+[9.007s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:[m[K In constructor ‘[01m[KStateMonitor::[01;32m[KStateMonitor[m[K()[m[K’:
+[9.007s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:12:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[9.007s]    12 |             [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::float64MultiArray>(
+[9.007s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[9.007s]       |             [32m[Krmw_subscription_t[m[K
+[9.007s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:12:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64MultiArray[m[K’?
+[9.007s]    12 |             subscription_ = this->create_subscription<std_msgs::msg::[01;31m[Kfloat64MultiArray[m[K>(
+[9.007s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[9.007s]       |                                                                      [32m[KFloat64MultiArray[m[K
+[9.007s] [01m[K/home/ritik/latch_ws/ros2_ws/src/latch_core/src/state_monitor.cpp:18:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholder[m[K’ has not been declared
+[9.007s]    18 |                     std::[01;31m[Kplaceholder[m[K::_1
+[9.007s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[9.865s] gmake[2]: *** [CMakeFiles/state_monitor.dir/build.make:76: CMakeFiles/state_monitor.dir/src/state_monitor.cpp.o] Error 1
+[9.865s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/state_monitor.dir/all] Error 2
+[9.865s] gmake: *** [Makefile:146: all] Error 2
+[9.868s] Invoked command in '/home/ritik/latch_ws/ros2_ws/build/latch_core' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ritik/latch_ws/ros2_ws/build/latch_core -- -j16 -l16

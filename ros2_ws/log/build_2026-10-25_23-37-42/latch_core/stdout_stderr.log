@@ -1,0 +1,23 @@
+[ 50%] Built target state_monitor
+[ 75%] [32mBuilding CXX object CMakeFiles/safety_filter.dir/src/safety_filter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable safety_filter[0m
+[100%] Built target safety_filter
+-- Install configuration: ""
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/state_monitor
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/safety_filter
+-- Set non-toolchain portion of runtime path of "/home/ritik/latch_ws/ros2_ws/install/latch_core/lib/latch_core/safety_filter" to ""
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/package_run_dependencies/latch_core
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/parent_prefix_path/latch_core
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.sh
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/environment/path.dsv
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.bash
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.sh
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.zsh
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/local_setup.dsv
+-- Installing: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.dsv
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/ament_index/resource_index/packages/latch_core
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig.cmake
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/cmake/latch_coreConfig-version.cmake
+-- Up-to-date: /home/ritik/latch_ws/ros2_ws/install/latch_core/share/latch_core/package.xml
